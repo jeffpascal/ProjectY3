@@ -1,0 +1,12 @@
+extend default
+
+block content
+  p.
+  
+  form(action="http://localhost:3000/process_get", method="get")
+      div.input
+        span.label Title
+          input(type="text", name="team")
+      div.actions
+        input(type="submit", value="add")
+       
