@@ -19,6 +19,7 @@ app.get('/process_get', function(req,res,next){
 
 })
 
+
 //added a new page that has a form (saved in index.jade in pages folder)
 app.get('/index.html', function (req, res, next){
   var html = page({title : 'First Page'})
